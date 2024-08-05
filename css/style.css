@@ -1,0 +1,61 @@
+.gradient-background {
+  background: #CECDC8;
+  color:black;
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  font-family: cardo;
+ 
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.header{
+  background:#0E4D85;
+  color: white;
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  font-family: cardo;
+}
+nav-link {
+  border-radius: var(--bs-nav-pills-border-radius);
+}
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: #F2F2F2
+}
+
+
+.font{
+  background:white;
+  color: black;
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  font-family: cardo;
+}
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;}
+  }
